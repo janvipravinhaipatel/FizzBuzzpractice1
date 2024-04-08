@@ -10,5 +10,6 @@ public class AppTest extends TestCase {
 public void testApp()
 {
     assertEquals("Fizz",App.FizzBuzz(3));
+
 }
 }
