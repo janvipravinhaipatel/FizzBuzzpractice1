@@ -8,6 +8,8 @@ public class App {
             Output="Fizz";
         else if(a%5==0)
             Output="Buzz";
+        else if(a%3==0 && a%5==0)
+            Output="FizzBuzz";
         return Output;
         }
         public static void main (String[] args)
