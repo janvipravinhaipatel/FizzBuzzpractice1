@@ -6,6 +6,8 @@ public class App {
         String Output = " ";
         if(a%3==0)
             Output="Fizz";
+        else if(a%5==0)
+            Output="Buzz";
         return Output;
         }
         public static void main (String[] args)
